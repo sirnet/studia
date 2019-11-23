@@ -3,6 +3,8 @@
     var secondItem = document.getElementById("second");
     var thirdItem = document.getElementById("third");
     var fourthItem = document.getElementById("fourth");
+    var clientClick = document.getElementById("client");
+    
     var i=0;
     burgerList.onclick =  function(){
         if (i ==0) {
@@ -20,3 +22,8 @@
             i=0;
         }
     } 
+
+clientClick.onclick =  function(){
+
+    document.getElementById("client").innerHTML="ШУТКА, ВСЕ - ЛЮБИМЫЕ";
+}
