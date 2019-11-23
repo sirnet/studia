@@ -23,16 +23,17 @@
         }
     } 
 
-clientClick.onclick =  function(){
 
-    document.getElementById("client").innerHTML="ШУТКА, ВСЕ - ЛЮБИМЫЕ";
-}
+
 var select = true;
 var formClick = document.querySelectorAll('.form__content');
 
 $('.form__content').click(function(){
         $(this).toggleClass('active');
         //$('.form__content').not(this).removeClass('active');
-    
-    
 });
+
+
+clientClick.onclick =  function(){
+    document.getElementById("client").innerHTML="ШУТКА, ВСЕ - ЛЮБИМЫЕ";
+}
